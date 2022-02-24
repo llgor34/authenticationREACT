@@ -46,9 +46,9 @@ const AuthForm = () => {
 
     if (isLogin) {
       url =
-        'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyC0MMnjEHczjSI0NLPuweY9SXAmz4Q-7GM';
+        'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[YOUR_SECRET_KEY]';
     } else {
-      url = `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyC0MMnjEHczjSI0NLPuweY9SXAmz4Q-7GM`;
+      url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[YOUR_SECRET_KEY]';
     }
 
     fetch(url, {
