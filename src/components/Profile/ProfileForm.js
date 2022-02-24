@@ -19,7 +19,7 @@ const ProfileForm = () => {
 
     fetch(
       `https://identitytoolkit.googleapis.com/v1/accounts:update?key=
-    AIzaSyC0MMnjEHczjSI0NLPuweY9SXAmz4Q-7GM`,
+    [YOUR_SECRET_KEY]`,
       {
         method: 'POST',
         body: JSON.stringify({
